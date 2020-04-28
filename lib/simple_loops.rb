@@ -6,9 +6,9 @@ def loop_message_five_times (string)
 end 
 end
 
-def loop_message_n_times(string, Integer)
+def loop_message_n_times(string, integer)
   count = 0 
-  n = Integer
+  n = integer.to_i 
   while count <= n 
   puts string
   count += 1 
