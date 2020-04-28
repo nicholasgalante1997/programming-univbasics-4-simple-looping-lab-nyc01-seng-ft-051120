@@ -17,8 +17,8 @@ end
 
 def output_array(array, number)
   count = 0 
-  until count = n 
-  puts array[n]
+  until count = number
+  puts array[number]
   count += 1 
 end 
 end 
