@@ -23,3 +23,11 @@ def output_array(array)
 end 
 end 
   
+def return_string_array(array)
+  
+  count = 0 
+  while count < array.length do 
+   array[count] = array[count].to_s 
+   puts array[count]
+ end 
+end
